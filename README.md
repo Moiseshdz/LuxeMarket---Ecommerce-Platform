@@ -47,7 +47,8 @@ Selecciona "Open with Live Server"
 
 📦 Estructura del Proyecto
 ecommerce-magento/
-.
+```text
+ecommerce-magento/
 ├── index.html              # Página principal (punto de entrada)
 │   └── Contiene: Header, productos, footer y estructura base
 │
@@ -67,19 +68,19 @@ ecommerce-magento/
 │       ├── Filtros y búsqueda
 │       └── Manejo de eventos
 │
-├── images/                 # Imágenes de productos (opcional)
+├── images/
 │   ├── product-1.jpg
 │   ├── product-2.jpg
 │   └── ...
 │
-├── assets/                 # Recursos adicionales
+├── assets/
 │   ├── logos/
 │   ├── icons/
 │   └── fonts/
 │
 ├── .gitignore              # Archivos ignorados por Git
 ├── README.md               # Documentación del proyecto
-└── LICENSE                 # Licencia MIT
+└── LICENSE                 # Licencia MIT  ´´´ 
 🔍 Detalles de cada archivo
 index.html
 
