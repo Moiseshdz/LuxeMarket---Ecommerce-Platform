@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LuxeMarket - Tu destino premium para moda y accesorios de lujo">
+    <title>LuxeMarket - Tienda Premium</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="announcement-bar">✨ Envío gratis en compras superiores a $50 | Descuento del 20% en tu primera compra</div>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">Luxe<span>Market</span></div>
+            <nav class="nav">
+                <a href="#home">Inicio</a>
+                <a href="#products">Productos</a>
+                <a href="#categories">Categorías</a>
+                <a href="#about">Nosotros</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+            <div class="header-icons">
+                <div class="search-container">
+                    <span>🔍</span>
+                    <input type="text" class="search-input" placeholder="Buscar productos...">
+                </div>
+                <button class="icon-btn" aria-label="Mi cuenta">👤</button>
+                <button class="icon-btn" aria-label="Favoritos">❤️</button>
+                <button class="icon-btn" onclick="toggleCart()" aria-label="Carrito">🛒<span class="cart-count">3</span></button>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Lujo Redefinido<br>para Ti</h1>
+            <p>Descubre nuestra colección exclusiva de productos premium seleccionados cuidadosamente para elevar tu estilo de vida.</p>
+            <a href="#products" class="cta-btn">Explorar Colección</a>
+        </div>
+    </section>
+    <section class="categories" id="categories">
+        <h2 class="section-title">Explora por Categoría</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='500'%3E%3Crect fill='%23d4af37' width='400' height='500'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='serif'%3EModa Mujer%3C/text%3E%3C/svg%3E" alt="Moda Mujer" class="category-image">
+                <div class="category-info">
+                    <div class="category-name">Moda Mujer</div>
+                    <div class="category-count">248 productos</div>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='500'%3E%3Crect fill='%238b4513' width='400' height='500'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='serif'%3EModa Hombre%3C/text%3E%3C/svg%3E" alt="Moda Hombre" class="category-image">
+                <div class="category-info">
+                    <div class="category-name">Moda Hombre</div>
+                    <div class="category-count">186 productos</div>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='500'%3E%3Crect fill='%23c9a050' width='400' height='500'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='serif'%3EAccesorios%3C/text%3E%3C/svg%3E" alt="Accesorios" class="category-image">
+                <div class="category-info">
+                    <div class="category-name">Accesorios</div>
+                    <div class="category-count">325 productos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <div class="products-container">
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="product-grid" id="productGrid"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>LuxeMarket</h3>
+                <p style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.6; font-weight: 300;">Tu destino premium para moda y accesorios de lujo. Calidad excepcional, servicio impecable.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Comprar</h3>
+                <ul>
+                    <li><a href="#">Moda Mujer</a></li>
+                    <li><a href="#">Moda Hombre</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li><a href="#">Centro de Ayuda</a></li>
+                    <li><a href="#">Seguimiento de Pedido</a></li>
+                    <li><a href="#">Envíos y Devoluciones</a></li>
+                    <li><a href="#">Tallas</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Empresa</h3>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Sostenibilidad</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 LuxeMarket. Todos los derechos reservados.</div>
+    </footer>
+    <div class="cart-overlay" onclick="toggleCart()"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h2>Tu Carrito</h2>
+            <button class="close-cart" onclick="toggleCart()">×</button>
+        </div>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23d4af37' width='100' height='100'/%3E%3C/svg%3E" alt="Producto" class="cart-item-image">
+                <div class="cart-item-details">
+                    <div class="cart-item-name">Bolso de Cuero Premium</div>
+                    <div class="cart-item-price">$289.99</div>
+                    <div style="margin-top: 10px; color: #666; font-size: 13px;">Cantidad: 1</div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total"><span>Total:</span><span>$939.97</span></div>
+            <button class="checkout-btn" onclick="checkout()">Finalizar Compra</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
