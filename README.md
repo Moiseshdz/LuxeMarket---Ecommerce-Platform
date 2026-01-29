@@ -47,39 +47,39 @@ Selecciona "Open with Live Server"
 
 📦 Estructura del Proyecto
 ecommerce-magento/
+.
+├── index.html              # Página principal (punto de entrada)
+│   └── Contiene: Header, productos, footer y estructura base
 │
-├── 📄 index.html              # Página principal (punto de entrada)
-│   └── Contiene: Header, productos, footer, y estructura base
-│
-├── 📁 css/
-│   └── 📄 styles.css          # Todos los estilos del sitio
+├── css/
+│   └── styles.css          # Todos los estilos del sitio
 │       ├── Variables CSS (colores, fuentes, espaciado)
 │       ├── Estilos del header y navegación
 │       ├── Diseño de tarjetas de productos
 │       ├── Carrito de compras
 │       └── Responsive design (móvil, tablet, desktop)
 │
-├── 📁 js/
-│   └── 📄 main.js             # Toda la funcionalidad JavaScript
+├── js/
+│   └── main.js             # Toda la funcionalidad JavaScript
 │       ├── Datos de productos
 │       ├── Lógica del carrito
 │       ├── Renderizado dinámico
 │       ├── Filtros y búsqueda
 │       └── Manejo de eventos
 │
-├── 📁 images/                 # Imágenes de productos (opcional)
+├── images/                 # Imágenes de productos (opcional)
 │   ├── product-1.jpg
 │   ├── product-2.jpg
 │   └── ...
 │
-├── 📁 assets/                 # Recursos adicionales
+├── assets/                 # Recursos adicionales
 │   ├── logos/
 │   ├── icons/
 │   └── fonts/
 │
-├── 📄 .gitignore             # Archivos ignorados por Git
-├── 📄 README.md              # Este archivo (documentación)
-└── 📄 LICENSE                # Licencia MIT
+├── .gitignore              # Archivos ignorados por Git
+├── README.md               # Documentación del proyecto
+└── LICENSE                 # Licencia MIT
 🔍 Detalles de cada archivo
 index.html
 
@@ -456,7 +456,7 @@ Imágenes de Unsplash
 
 🐛 Abre un Issue
 💬 Inicia una Discussion
-📧 Contacto directo: [tu-email@ejemplo.com]
+📧 Contacto directo: [moisesgrcia37@gmail.com]
 
 
 <div align="center">
