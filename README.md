@@ -80,7 +80,8 @@ ecommerce-magento/
 │
 ├── .gitignore              # Archivos ignorados por Git
 ├── README.md               # Documentación del proyecto
-└── LICENSE                 # Licencia MIT  ´´´ 
+└── LICENSE                 # Licencia MIT
+```
 🔍 Detalles de cada archivo
 index.html
 
