@@ -42,8 +42,8 @@ LuxeMarket/
 No requiere instalación de dependencias.
 
 ```bash
-git clone https://github.com/Moiseshdz/LuxeMarket---Ecommerce-Platform.git
-cd LuxeMarket---Ecommerce-Platform
+git clone https://github.com/Moiseshdz/luxemarket-ecommerce-platform.git
+cd luxemarket-ecommerce-platform
 ```
 
 Después abre `index.html` en tu navegador o utiliza un servidor local como Live Server.
